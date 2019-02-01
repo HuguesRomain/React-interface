@@ -1,0 +1,37 @@
+body{
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.interface{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Element{
+  background-color: brown; 
+  display: flex; 
+  justify-content: space-evenly;
+  height: 8.5vh;
+  width: 16vw;
+  border-radius: 20%;
+  flex-direction: row;
+  margin: 3vw;
+}
+
+.appElements{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.class{
+  background-color: aqua;
+  height: 20vh;
+  width: 9vw;
+  display: flex;
+}
