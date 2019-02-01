@@ -1,15 +1,17 @@
-import React, { Fragment } from 'react'; 
+import React, { Fragment, Component } from 'react'; 
+import LogoApp from './LogoApp'
+import NameApp from './NameApp'
 import '../App.css'
 
 const Element = ({}) => {
   return(
     <div className="appElements">
-    <div className='Element'>
-    </div>
-    <div className='nameApp'>name</div>
+    <LogoApp />
+    <NameApp />
     </div>
   )
 }
 
 export default Element
+
 

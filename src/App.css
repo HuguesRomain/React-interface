@@ -1,25 +1,24 @@
 body{
-  background-color: #282c34;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  background-image: url('./assets/Iphone7.jpg')
 }
 
 .interface{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
+  margin: 4px;
+  margin-top: 4vh;
 }
 
-.Element{
+.logoApp{
   background-color: brown; 
-  display: flex; 
-  justify-content: space-evenly;
-  height: 8.5vh;
-  width: 16vw;
+  height: 9vh;
+  width: 17vw;
   border-radius: 20%;
-  flex-direction: row;
-  margin: 3vw;
+  margin-right: 3vw;
+  margin-left: 3vw;
+  margin-bottom: 1vw;
 }
 
 .appElements{
@@ -27,11 +26,25 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+margin-bottom: 2vw;
 }
 
-.class{
-  background-color: aqua;
-  height: 20vh;
-  width: 9vw;
+.Bottom{
+  z-index: 0;
+  position: fixed;
+  transform: translateX(-2.1vw) translateY(1.1vh);;
+  background-color: white; 
+  height: 14vh;
+  width: 100vw;
   display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+.Bottom__app{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateX(-3.2vw)
 }
