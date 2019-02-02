@@ -84,14 +84,16 @@ class NameApp extends Component{
 
 
     const AppInterface = Object.keys(apps)
-    .map(app  => (
-       <div
-       key={app}
-       name= {apps[app].name} />
+    .map(i  => (
+       <Fragment key={i}> {apps[i].name} </Fragment>
     ))
 
+      {for(var i = 0; i < AppInterface.length; i++){
+        var AppNameInterface = AppInterface[i];
+      }}
+
     return(
-    <div className='nameApp'> name </div>
+    <div className='nameApp'> { AppNameInterface } </div>
     )
   }
 }
