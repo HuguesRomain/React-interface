@@ -1,2 +1,2 @@
 # React-interface
-Personnal prroject to learn React
+Trying to remake IOS interface with React.JS
